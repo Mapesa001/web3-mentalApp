@@ -1,0 +1,9 @@
+{
+  "canisters": {
+    "mindconnect-backend": {
+      "type": "motoko",
+      "main": "src/motoko/main.mo",
+      "dependencies": []
+    }
+  }
+}
