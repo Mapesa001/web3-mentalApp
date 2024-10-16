@@ -1,0 +1,105 @@
+/* General Styles */
+html, body {
+    height: 100%;  /* Make sure the body and html elements take up the full height */
+    margin: 0;     /* Remove default margin */
+    font-family: 'Arial', sans-serif; /* Font style */
+    background-color: #f7f9fc; /* Light background for calmness */
+}
+
+.home {
+    padding: 20px;
+    max-width: 800px; /* Increase max width for larger screens */
+    margin: 0 auto; /* Center the content */
+    height: 100%; /* Allow the section to take full height */
+    display: flex; /* Use flexbox to align items */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: flex-start; /* Align items to the start */
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.mood-section {
+    margin: 20px 0;
+}
+
+h2, h3 {
+    margin-top: 20px;
+    color: #1976d2; /* Dark blue for headings */
+}
+
+.mood-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+select, input[type="text"] {
+    flex: 1; /* Allow input fields to take available space */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid layout */
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.service-card {
+    background: #e0f7fa; /* Light cyan background */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s; /* Add transition for hover effect */
+}
+
+.service-card:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.service-card h3 {
+    margin-top: 0;
+    color: #e64a19; /* Dark orange color for service titles */
+}
+
+/* Link Styles */
+a {
+    color: #1976d2; /* Dark blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}

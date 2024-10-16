@@ -1,0 +1,57 @@
+.auth-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+button {
+    background-color: #f57c20;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ef6c00;
+}
+
+.toggle-button {
+    background: transparent;
+    color: #f57c20;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.note {
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+}
